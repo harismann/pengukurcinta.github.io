@@ -1,0 +1,62 @@
+MASUKAN sebuah kalimat pada 'nama1'
+IF hapus spasi dari kalimat 'nama1' THEN:
+  TAMPILKAN "kosong"
+ENDIF
+  ELSE:
+    MASUKAN sebuah kalimat pada 'nama2'
+      IF hapus spasi dari kalimat 'nama1' THEN:
+        TAMPILKAN "kosong 2"
+  ENDIF
+    ELSE:
+  ENDIF
+ENDIF
+MASUKAN FUNGSI calc
+  variabel anda dibuat dengan huruf besar semua pada nama1
+  variabel andalength dengan menghitung jumlah hurufnya
+  variabel pasangan dengan huruf besar semua pada nama2
+  variable pasanganlength dengan menghitung jumlah hurufnya
+  SIMPAN nilai kosong pada 'LoveCount'
+
+FOR setiap pertambahan satu pada 'Count' dari 'Count' kurang dari 'andalength':
+  variabel mengekstrak string 'Count'dan 'Count+1' pada letter1
+  IF variabel latter2 sama dengan 'L' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'O' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'V' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'E' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'Y' maka LoveCount ditambahkan  3
+  IF variabel latter2 sama dengan 'O' maka LoveCount ditambahkan  1
+  IF variabel latter2 sama dengan 'U' maka LoveCount ditambahkan  3
+ENDIF
+
+FOR setiap pertambahan satu pada 'Count' dari 'Count' kurang dari 'pasanganlength':
+  variabel mengekstrak string 'Count'dan 'Count+1' pada letter2
+  IF variabel latter2 sama dengan 'L' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'O' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'V' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'E' maka LoveCount ditambahkan  2
+  IF variabel latter2 sama dengan 'Y' maka LoveCount ditambahkan  3
+  IF variabel latter2 sama dengan 'O' maka LoveCount ditambahkan  1
+  IF variabel latter2 sama dengan 'U' maka LoveCount ditambahkan  3
+ENDIF
+
+
+AMOUNT bernilai null
+  IF loveCount lebih besar dari 0 maka amuont sama dengan 5 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 2 maka amuont sama dengan 10 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 4 maka amuont sama dengan 20 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 6 maka amuont sama dengan 30 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 8 maka amuont sama dengan 40 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 10 maka amuont sama dengan 50 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 12 maka amuont sama dengan 60 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 14 maka amuont sama dengan 70 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 16 maka amuont sama dengan 80 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 18 maka amuont sama dengan 90 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 20 maka amuont sama dengan 100 dikurangi andalength ditambah pasanganlengt dibagi 2
+  IF loveCount lebih besar dari 22 maka amuont sama dengan 110 dikurangi andalength ditambah pasanganlengt dibagi 2
+
+IF andalength tidak bernilai atau pasanganleng tidak bernilai maka AMOUNT "Err"
+IF amount lebih kecil dari null amount bernilai null
+IF amount lebih dari 99 amount bernilai 99
+
+TAMPILKAN amount
+ENDIF
